@@ -8,7 +8,7 @@ body{
     background-color: rgb(161, 67, 204);
 }
 
-.griglia{
+#griglia{
     background-color: rgb(235, 235, 129);
     margin: 0px auto;
     width: 900px;
