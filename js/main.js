@@ -13,12 +13,14 @@ btn.addEventListener("click", function(){
     //ciclo per creare 100 div
     for (let i = 0; i < 100; i++) {
         
-        // creazione div appeso alla variabile 
+        // creazione div 
         let nuovoDiv = document.createElement("div");
 
-        // inserire questa variabile all'interno del dom con la clesse
+        // inserire questa variabile all'interno del dom con la clesse per creare il div
         document.getElementById("griglia").appendChild(nuovoDiv).className = "quadratino";
+
     }
+    
     
 })
 
