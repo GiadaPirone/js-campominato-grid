@@ -23,4 +23,12 @@ body{
     height: 90px;
     background-color: rgb(235, 235, 129);
     border: 2px solid rgb(161, 67, 204);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cambioColore{
+    background-color: white;
 }
