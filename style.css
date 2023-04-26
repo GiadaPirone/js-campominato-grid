@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(161, 67, 204);
+}
+
+.griglia{
+    background-color: rgb(235, 235, 129);
+    margin: 0px auto;
+    width: 900px;
+    min-height: 900px;
+
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.quadratino{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(235, 235, 129);
+    border: 2px solid rgb(161, 67, 204);
+}
