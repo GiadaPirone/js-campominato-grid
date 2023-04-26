@@ -18,9 +18,8 @@ btn.addEventListener("click", function(){
 
         // inserire questa variabile all'interno del dom con la clesse per creare il div
         document.getElementById("griglia").appendChild(nuovoDiv).className = "quadratino";
-        nuovoDiv.innerHTML(i);
+        nuovoDiv.innerHTML = nuovoDiv.innerHTML + i;
     }
-    
     
 })
 
